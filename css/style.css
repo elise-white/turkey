@@ -1,0 +1,17 @@
+  body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .flag {
+    width: 40px;
+    height: auto;
+    border-radius: 4px; /* optional, makes it slightly rounded */
+    object-fit: contain;
+  }
+  
