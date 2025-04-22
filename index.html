@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8" />
-    <!-- Mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" />
 
     <title>Turkey</title>
 
@@ -17,52 +20,76 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
-
 <body>
-    <div class="hero_area">
-      <!-- header section strats -->
-      <header class="header_section">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/turkey flag.png" alt="Turkey Flag" class="flag" />
-              <span>
-                Turkey
-              </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-black" id="myNavbar">
+        <img src="images/turkey-flag.png" alt="Turkey Flag" class="flag" />
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="link1.html" class="w3-bar-item w3-button">link1</a>
+      <a href="link2.html" class="w3-bar-item w3-button">link2</a>
+      <a href="link3.html" class="w3-bar-item w3-button">link3</a>
+      <a href="link4.html" class="w3-bar-item w3-button">link4</a>
+      <a href="link5.html" class="w3-bar-item w3-button">link5</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="link1.html" onclick="w3_close()" class="w3-bar-item w3-button">link1</a>
+    <a href="link2.html" onclick="w3_close()" class="w3-bar-item w3-button">link2</a>
+    <a href="link3.html" onclick="w3_close()" class="w3-bar-item w3-button">link3</a>
+    <a href="link4.html" onclick="w3_close()" class="w3-bar-item w3-button">link4</a>
+    <a href="link5.html" onclick="w3_close()" class="w3-bar-item w3-button">link5</a>
+  </nav>
+
+  <!-- Header with full-height image -->
+<div class="background-wrapper"></div>
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="header-text" style="color: white padding:48px">
+      <span class="w3-jumbo w3-hide-small bold-heading">Turkey’s Fight for Women’s Rights </span><br>
+    </div> 
+  </header>
+
+  <script>
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+    }
+   
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+    }
+    </script>
+
+
+<section id="about">
+    <h2></h2>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </section>
   
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                <ul class="navbar-nav  ">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">
-                      Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html"> About </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="program.html"> Programs </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html"> Contact us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-
-
-    </body>
-
-
-
-
-
-
-</html>
+  
+</body>
+</html

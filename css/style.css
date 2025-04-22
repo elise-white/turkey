@@ -1,17 +1,90 @@
-  body {
-    font-family: Georgia, serif;
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
-  h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
-  }
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-  .flag {
-    width: 40px;
-    height: auto;
-    border-radius: 4px; /* optional, makes it slightly rounded */
-    object-fit: contain;
-  }
-  
+body, h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+.w3-bar .w3-button {
+  padding: 12px;
+}
+
+
+.flag {
+  width: 40px;
+  height: 10%;
+  border-radius: 10px; /* optional, makes it slightly rounded */
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+
+.bgimg-1 {
+  background-image: url(); /* Background image */
+  background-repeat: no-repeat;
+  background-size: cover;  /* Ensure the image fully covers the container */
+  background-position: center;  /* Centers the image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 50px solid #3C4D61; /* Blue border around the image */
+  height: 100vh;  /* Full viewport height */
+  width: 100vw;   /* Full viewport width */
+  margin: 0;      /* Remove margin */
+}
+
+.background-wrapper {
+  background-color: #3C4D61;  /* Light blue background for the container */
+  padding: 0;  /* No padding around the image */
+  margin: 0;   /* No margin */
+  border: 25px solid #3C4D61; /* Blue border surrounding the image */
+
+}
+
+.bold-heading {
+  font-weight: 800;
+}
+
+.header-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  text-align: center;
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f1ed; /* Light neutral background */
+}
+
+#about {
+  background-color: #a97458; /* Warm brown */
+  padding: 3rem;
+  border-radius: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff8f0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  max-width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#about p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-top: 1.5rem;
+}
+
+
