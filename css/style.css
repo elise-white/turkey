@@ -23,7 +23,7 @@ body, h1, h2, h3, h4 {
 
 
 .bgimg-1 {
-  background-image: url(); /* Background image */
+  background-image: url(../images/women\ protest.jpg); /* Background image */
   background-repeat: no-repeat;
   background-size: cover;  /* Ensure the image fully covers the container */
   background-position: center;  /* Centers the image */
