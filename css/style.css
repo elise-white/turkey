@@ -23,7 +23,7 @@ body, h1, h2, h3, h4 {
 
 
 .bgimg-1 {
-  background-image: url(../images/homepage.jpg); /* Background image */
+  background-image: url(../images/homepage.jpg); 
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center; 
@@ -82,11 +82,11 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 40%;
-  background-color: white; /* light gray background */
-  padding: 16px;             /* inner spacing */
-  border: 1px solid #ddd;    /* subtle border */
-  border-radius: 8px;        /* rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+  background-color: white; 
+  padding: 16px;           
+  border: 1px solid #ddd;   
+  border-radius: 8px;      
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .card:hover {
@@ -104,7 +104,7 @@ body {
   }
   
   .card {
-    width: 90%; /* makes the card responsive to screen size */
+    width: 90%; 
   }
 }
 
@@ -120,11 +120,11 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 40%;
-  background-color: white; /* light gray background */
-  padding: 16px;             /* inner spacing */
-  border: 1px solid #ddd;    /* subtle border */
-  border-radius: 8px;        /* rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+  background-color: white; 
+  padding: 16px;             
+  border: 1px solid #ddd;    
+  border-radius: 8px;      
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .card:hover {
@@ -142,7 +142,7 @@ body {
   }
   
   .card {
-    width: 90%; /* makes the card responsive to screen size */
+    width: 90%; 
   }
 }
 
@@ -169,4 +169,30 @@ body {
   margin-top: 1.5rem;
 }
 
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
 
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
