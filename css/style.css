@@ -36,8 +36,6 @@ body, h1, h2, h3, h4 {
   margin: 0;      
 }
 
-
-
 .background-wrapper {
   background-color: #3C4D61;  
   padding: 0;  
@@ -156,28 +154,8 @@ body {
   }
 }
 
-#about {
-  background-color: #a97458; 
-  padding: 3rem;
-  border-radius: 30px;
-  font-family: 'Segoe UI', sans-serif;
-  color: #fff8f0;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  max-width: 90%;
-  margin: 3rem auto;
-  text-align: center;
-}
 
-#about h2 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
 
-#about p {
-  font-size: 1.4rem;
-  line-height: 2;
-  margin-top: 1.5rem;
-}
 
 .footer {
   background-color: #222;
@@ -206,6 +184,4 @@ body {
 .footer-links a:hover {
   color: #fff;
 }
-
-
 
