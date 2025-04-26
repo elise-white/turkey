@@ -185,3 +185,61 @@ body {
   color: #fff;
 }
 
+
+
+
+
+
+.un {
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.un-title {
+  font-size: 3rem;
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+.un-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+
+
+
+.un-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  padding: 10px;
+}
+
+.un-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.un-subheading {
+  color: #3cc6ee;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.img-un {
+float: right;
+width: 40%;
+}
+
+
+
