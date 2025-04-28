@@ -143,6 +143,21 @@ body {
   padding: 2px 16px;
 }
 
+.row {
+position:absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-weight: 100;
+}
+
+
+.container-wrap {
+border-top: 20px;
+border-color: #000000;
+}
+
 @media (max-width: 650px) {
   .card-wrapper {
     flex-direction: column;
@@ -165,6 +180,14 @@ body {
   margin-top: 40px;
 }
 
+.footer4 {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 1000px;
+}
+
 .footer-content {
   max-width: 1000px;
   margin: 0 auto;
@@ -183,5 +206,6 @@ body {
 
 .footer-links a:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
