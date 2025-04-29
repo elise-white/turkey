@@ -44,8 +44,22 @@
     <a href="un.html" onclick="w3_close()" class="w3-bar-item w3-button">UN</a>
     <a href="link3.html" onclick="w3_close()" class="w3-bar-item w3-button">link3</a>
     <a href="organizations.html" onclick="w3_close()" class="w3-bar-item w3-button">Organizations</a>
-    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">contact</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
   </nav>
+  <script>
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
 
 
 <section style="padding: 60px; background-color: #f2f2f2;">
