@@ -426,4 +426,10 @@ border-color: #000000;
   }
 }
 
+.issues-title {
+  font-size: 2.5em;
+  color: #b30059; 
+  margin-bottom: 20px;
+}
+
 
